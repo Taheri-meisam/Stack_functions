@@ -52,8 +52,8 @@ int main()
     fm->addFuncToVec(getD, functions);
     fm->addFuncToVec(getE, functions);
 
-    for (auto i : functions) {
-        i();
+    for (auto funcs : functions) {
+        funcs();
     }
    
 }
