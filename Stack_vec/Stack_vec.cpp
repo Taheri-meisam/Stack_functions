@@ -22,19 +22,19 @@ int getA() {
 
 int getB() {
     std::cout << "GetB" << std::endl;
-    return 10;
+    return 0;
 }
 int getC() {
     std::cout << "GetC" << std::endl;
-    return 10;
+    return 0;
 }
 int getD() {
     std::cout << "GetD" << std::endl;
-    return 10;
+    return 0;
 }
 int getE() {
     std::cout << "GetE" << std::endl;
-    return 10;
+    return 0;
 }
 
 int nothing() {
